@@ -1,0 +1,132 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing:border-box;
+}
+
+body{
+    background:linear-gradient(to bottom,#05161a,#072e33,#0c7075,#0f969c);
+    height: 100vH; 
+    display: flex;
+    
+}
+.divheader{
+    width: 644px;
+}
+.intro,
+.wlc{
+    color: white;
+    margin-bottom: 10px;
+    margin-left: 80px;
+    font-size: x-large;
+    display: inline-block;
+}
+.wlc{
+    font-size: 53px;
+    border-bottom: 3px solid red;
+}
+.intro{background-color: #05161a;
+    margin-left: 52px;
+    padding: 5px;
+    border-radius: 8px;
+    font-size:22px;
+    text-align: center;
+}
+
+.container-form {
+    scroll-snap-type: y mandatory;
+    overflow-y:hidden;
+    margin-top: 50px;
+    margin-left: 130px;
+    border: 2px solid black;
+    height: 500px;
+    width: 350px;
+    color: aliceblue;
+    border-radius: 25px;
+    overflow: hidden;
+}
+
+
+.divdiv{
+    scroll-snap-align: start;
+    scroll-snap-stop: normal;
+    height:500px;
+}
+
+form {
+    height: 100%;
+    box-sizing: border-box;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    background: linear-gradient(to bottom, #0c7075,#072e33,#05161a);
+    border-radius: 25px; 
+}
+
+.login{
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 26px;
+    margin-top: 10px;
+    color: white;
+}
+
+
+label{
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-left: 10px;
+    margin-bottom: 4px;
+    font-size: small;
+    font-weight: bold;
+    color: white;
+}
+
+input {
+    border-radius: 12px;
+    border: none;
+    background-color: white;
+    height: 30px;
+    margin-bottom: 7px;
+    padding: 1px;
+    text-align: center;
+    color: black;
+letter-spacing: 1px;
+}
+.checkbox-container{
+    display: flex;
+    align-items: center;
+    margin: 5px;
+    justify-content: space-evenly;
+
+}
+button {
+    border-radius: 10px;
+    height: 22px;
+    width: 200px;
+    margin-left: 33px;
+    margin-top: 15px;
+    border: none;
+    font-weight: bold;
+    padding: 4px;
+    transition: 0.4s;
+    background-color: black;
+
+}
+button a{
+    text-decoration: none;
+    color: white;
+}
+.create{
+    margin-top: 50px;
+    background-color: rgb(31, 31, 243);
+    color: whitesmoke;
+    width: 230px;
+    margin-left: 23px;
+}
+button:hover{
+    background-color: green;
+    color: white;
+    height: 26px;
+}

@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sacramento&family=Sevillana&family=Uncial+Antiqua&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400;500;600;700&family=Sacramento&family=Sevillana&family=Uncial+Antiqua&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400;500;600;700&family=Sevillana&family=Uncial+Antiqua&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>C V Home</title>
+</head>
+<style>
+    *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing:border-box;
+}
+body{
+    background:linear-gradient(to right,#05161a,#072e33,#0c7075,#0f969c);
+    height: 100vH;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center ;
+    background-color: white;
+    height: 120px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0,0.86);
+}
+.logo-h2{
+    margin-top: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.logo-h2 img{
+    width: 600px;
+    border-bottom: 4px double red;
+}
+.logo{
+    width: 100px;
+    margin-left: 30px;
+}
+h3{
+    color: white;
+    font-weight:400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    list-style: none;
+    margin-right: 25px;
+    }
+
+li a{
+    text-decoration: none;
+    color: white;
+    text-decoration: double;
+    background-color: #072e33;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 3px;
+    border-bottom: 4px solid red;
+    font-family: "Uncial Antiqua", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}    
+.sx{
+    padding: 8px;
+    margin: 40px;
+    margin-left: 130px;
+    width: 1000px;
+}
+.sex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 40px;
+    padding: 10px;
+    margin: 40px;
+}
+.sec1,
+.sec2,
+.sec3 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 900px;
+    border-radius: 10px;
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: 0.1s;
+    border: 3px solid #0f969c;
+}
+.sec1{
+    margin-right: 120px;
+    background-image: url(girlscream.png);
+}
+.sec1:hover{
+    transform: scale(1.8);
+}
+.sec2{
+    background-image: url(anonimity.png);
+}
+.sec2:hover{
+    transform: scale(1.8);}
+.sec3{
+    margin-left: 120px;
+    background-image: url(Ourpurpose.png)
+}
+.sec3:hover{
+    transform: scale(1.8);}
+
+.line1,
+.line2 {
+    height:3px;
+    background-color: rgb(201, 5, 5);
+} 
+.shapes{
+    margin-top: 30px;
+    margin-bottom: 15px;
+    height: 100px;
+    color: white;
+    background-image: url(cvvbg1.jpg);
+}
+h1{
+    margin-top: 20px;
+    margin-left: 12px;
+    font-size: 40px;
+    font-style: italic;
+}
+.dark-blue{
+        width: 100%;
+        height: 400px;
+        background-color: #05161a;
+        margin-top: 25px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .dark-blue div{
+        width: 185px;
+        height: 250px;
+        background-color: white;
+        border-radius: 15px;
+        background: linear-gradient(to right,#05161a,#072e33,#0a4249,#0c7075,#0f969c);
+    }
+
+.footer{
+    padding-bottom: 0px;
+    height: 210px;
+    margin-top: 30px;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+.footer img{
+    width: 100px;
+    margin-bottom: 30px;
+}
+.bul,.sul,.mul{
+    display: flex;
+    flex-direction: column;
+    align-items: first baseline;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 300;
+    color: white;
+    gap: 3px;
+    margin-bottom: 10px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+h4{
+    margin-bottom: 9px;
+    font-family: 'Trebuchet MS', sans-serif;
+    color: white;
+    font-family: "Uncial Antiqua", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+.media,
+.branch,
+.sponsors {
+    background-color: #05161a;
+    padding: 5px;
+    padding-top: 20px;
+    margin-bottom: 0px;
+    border-radius: 3px;
+    border-top: 6px solid red;
+}
+
+.gbox{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: #0f969c;
+    border-radius: 5px;
+}
+.gbox1{
+    top:150px;
+    left:100px;
+    width: 200px;
+    height: 200px;
+    filter: blur(5px);
+}
+.gbox2{
+    background-color: #0a4249;
+    top:240px;
+    left:910px;
+    width: 200px;
+    height: 200px;
+    filter: blur(5px);
+}
+.gbox3{
+    background-color: #0a7f86;
+    top:700px;
+    left: 1px;
+    width: 110px;
+    height: 200px;
+    filter: blur(5px);}
+
+    .gbox4{
+    background-color: #0a4249;
+    top:1110px;
+    right:1px;
+    width: 110px;
+    height: 200px;
+    filter: blur(5px);}
+
+</style>
+<body>
+        <div class="gbox gbox1"></div>
+        <div class="gbox gbox2"></div>
+        <div class="gbox gbox3"></div>
+        <div class="gbox gbox4"></div>
+    
+    <header>
+        <img src="cvlogocropped.jpg" class="logo">
+       <ul>
+        <li><a href="cvhome.html" target="blank">Home &#8962;</a></li>
+        <li><a href="cvcrime.html" target="blank">Crime &#9760</a></li>
+        <li><a href="cvlaw.html" target="blank">Law &#9875</a></li>
+        <li><a href="cvreport.html" target="blank">Report &#128196</a></li>
+       </ul>
+    </header>
+    <div class="logo-h2">
+        <img src="cvlogoinvertcropped.png">
+        <h3>See something, Say something!</h3>
+    </div>
+    <div class="sx">
+        <div class="sex">
+            <div class="sec1">
+                <h2>Our Purpose</h2>
+                <p>The purpose of the Citizen Voice is to <br>
+                    provide a secure platform where individuals<br>
+                    can anonymously report incidents related to social<br>
+                    issues such as police brutality, political oppression<br>
+                    vandalism, theft, and domestic violence, fostering<br>
+                    a safer and more just community for all.
+                </p>
+            </div>
+    
+            <div class="sec2">
+                <h2>Your Rights</h2>
+                <p>As a citizen of Nigeria, you are entitled <br>
+                   to a range of fundamental rights enshrined in <br>
+                   the Constitution of the Federal Republic of Nigeria.<br>
+                   These rights are designed to ensure your dignity,<br>
+                   freedom, and security. Understanding and exercising your <br>
+                   rights is crucial in fostering a just and equitable society.
+                </p>
+            </div>
+        
+            <div class="sec3">
+                <h2>Your Secret</h2>
+                <p>At Citizen Voice, we understand the importance of<br>
+                    privacy and security, especially when reporting <br>
+                    sensitive situations. We are committed to protecting your<br>
+                    identity and ensuring that your personal information remains <br>
+                    safe and confidential.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="line1">
+    </div>
+    <div class="shapes">
+        <h1>Dont be afraid to speak-up<br>
+        we got you covered.......</h1>
+    </div>
+    <div class="line2">
+    </div>
+
+    <div class="dark-blue">
+        <div><h1 style="color:white; text-align: center; margin-top: 100px;">SEE</h1></div>
+        <div><h1 style="color:white; text-align: center; margin-top: 100px;">SOMETHING</h1></div>
+        <div><h1 style="color:white; text-align: center; margin-top: 100px;">SAY</h1></div>
+        <div><h1 style="color:white; text-align: center; margin-top: 100px;">SOMETHING</h1></div>
+    </div>
+
+    <div class="footer">
+        <div>
+            <img src="cvlogocropped.jpg">
+        </div>
+        <div class="branch">
+            <h4>Branch</h4>
+            <ul class="bul">
+                <li>Lagos</li>
+                <li>Abuja</li>
+                <li>Kaduna</li>
+                <li>Anambra</li>
+            </ul>
+        </div>
+        <div class="sponsors">
+            <h4>Sponsors</h4>
+            <ul class="sul">
+                <li>Armed Force</li>
+                <li>Paramility</li>
+                <li>Labour Congress</li>
+                <li>L.Practitioners</li>
+            </ul>    
+        </div>
+        <div class="media">
+            <h4>Media</h4>
+            <ul class="mul">
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>    
+        </div>
+    </div>
+    
+</body>
+</html>
